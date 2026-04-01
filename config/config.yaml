@@ -134,19 +134,19 @@ platforms:
       name: "虫部落"
 
     - id: "tencent-hot"
-    name: "腾讯新闻 综合早报"
+      name: "腾讯新闻 综合早报"
     
     - id: "cls-telegraph"
-    name: "财联社 电报"
+      name: "财联社 电报"
     
     - id: "cls-depth"
-    name: "财联社 深度"
+      name: "财联社 深度"
     
     - id: "fastbull-express"
-    name: "法布财经 快讯"
+      name: "法布财经 快讯"
     
     - id: "fastbull-news"
-    name: "法布财经 头条"
+      name: "法布财经 头条"
 
       
 
@@ -223,7 +223,7 @@ rss:
 # - incremental：最少打扰，只看新增
 # ===============================================================
 report:
-  mode: "incremental"                     # daily | current | incremental（schedule 开启时作为默认值）
+  mode: "current"                     # daily | current | incremental（schedule 开启时作为默认值）
 
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
